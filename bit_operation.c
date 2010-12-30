@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/** 
+* @brief: decimal to binary
+*/
 void dtob(void)
 {
 	int k, i, a[32];
@@ -14,6 +17,9 @@ void dtob(void)
 	printf("\n\n");
 }
 
+/** 
+* @brief calculate x*y=? by bit operation
+*/
 void mul(void)
 {
 	unsigned int aa, bb, t = 1, i = 0, sum = 0, h;
@@ -29,6 +35,9 @@ void mul(void)
 	printf("%d*%d=%d\n\n",aa,bb,sum);
 }
 
+/** 
+* @brief : lower or upper character change
+*/
 void exchange(void)
 {	
 	char ss[128];
@@ -47,6 +56,9 @@ void exchange(void)
 	printf("%s\n",ss);
 }
 
+/** 
+* @brief:secreting a character
+*/
 void encryption(void)
 {	
 	char pre,aft;
